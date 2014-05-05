@@ -8,6 +8,7 @@
 #ifndef SERIALCTRL_H_
 #define SERIALCTRL_H_
 
+// This class is for manipulation of SPI interface
 class SerialCtrl {
 public:
 	SerialCtrl();
