@@ -9,11 +9,11 @@
 #define SERIALCTRL_H_
 
 // This class is for manipulation of SPI interface
-
 class SerialCtrl {
 public:
 	SerialCtrl();
 	virtual ~SerialCtrl();
+	void Setup();
 };
 
 #endif /* SERIALCTRL_H_ */
