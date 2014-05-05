@@ -10,6 +10,8 @@
 
 // This class is for manipulation of SPI interface
 class SerialCtrl {
+private:
+	int iSpeed;
 public:
 	SerialCtrl();
 	virtual ~SerialCtrl();
